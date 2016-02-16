@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+h1,h2,h3 {
+    color: Red;
+	text-transform: uppercase;
+	font-size: 150%;	
+	text-align:center;
+}
+
+ul {
+	            text-align: center;
+				min-height: 180px;
+				max-height: 100px;}
+				
+body {
+	height: 100%;
+	background-color:#C9C9C9;
+	display: block;
+	margin: 10px;
+	border-style: groove;
+	border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+}
+iframe {
+    width: 450px;
+    height: 350px;
+	text-align:center;
+	vertical-align: middle;
+
+}
+user agent stylesheetiframe { 
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border: 2px inset;	
+	}
