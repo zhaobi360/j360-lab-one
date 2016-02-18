@@ -28,7 +28,7 @@ body {
 }
 
 li {
-    float: auto;
+    float: inherit;
 }
 
 li a {

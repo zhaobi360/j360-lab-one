@@ -59,7 +59,7 @@ div.social-icons-home {
 }
 
 li {
-    float: auto;
+    float: inherit;
 }
 
 li a {
