@@ -7,10 +7,10 @@ h1,h2,h3 {
 	text-align:center;
 }
 
-ul {
-	            text-align: center;
-				min-height: 180px;
-				max-height: 100px;}
+.d, .b, .c {
+	text-align: center;
+	min-height: 180px;
+	max-height: 100px;}
 				
 body {
 	height: 100%;
@@ -39,8 +39,9 @@ user agent stylesheetiframe {
     border-image-repeat: initial;
     border: 2px inset;	
 	}
-	
-	ul {
+
+ul {
+	font-weight: bold;	
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,8 +61,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+a:hover:not(.active) {
     background-color: red;
-}.active {
+}
+
+.active {
     background-color: blue;
 }
